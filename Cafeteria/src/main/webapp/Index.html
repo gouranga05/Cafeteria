@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria-magic in the cup☕</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-hamburger" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/Pizza.webp" style="border-radius: 50%;" alt="">
+                <div class="content">
+                    <a href="snacks.html" style=" font-size: 2rem;
+                color:var(--black);
+                padding-bottom: .5rem;"><b>Snacks</b></a>
+                    <div class="price">Pizza,Burger etc.</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/blackcoffee.jpeg" alt="">
+                <div class="content">
+                    <h3>Black Coffee</h3>
+                    <div class="price">₹75/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/coldcofee.jpeg" alt="">
+                <div class="content">
+                    <a style=" font-size: 2rem;
+                color:var(--black);
+                padding-bottom: .5rem;">
+                        <h3>Cold Coffee</h3>
+                    </a>
+                    <div class="price">₹16/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>Cart item 04</h3>
+                    <div class="price">₹18/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout now</a>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh Coffee☕ and Snacks🍕 in the Morning.</h3>
+            <p>Start your day with our Coffee,Fresh snacks and stay energetic all the time.</p>
+            <a href="#" class="btn">Buy one now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>What makes our cafe special?</h3>
+                <p>There are many choices of coffee availale in our shop.Cold coffe,Black coffee,cafetino and many more
+                    versality and more importantly at a reasonable price.We are considering child,student,old
+                    everyone.As a indian cafe there chai😁 is also available. </p>
+                <p>And wait there is a great collections of snacks 😜 also..pizza,burger,pasta,cake,pastry</p>
+                <a href="about us.html" class="btn">Learn more about our members</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> Our <span>Menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="">
+                <h3>Indian Coffee</h3>
+                <div class="price">₹20 <span>₹100</span></div>
+                <a href="#" class="btn" onclick="myfunction()">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="">
+                <h3>Extra Rich</h3>
+                <div class="price">₹100 <span>₹250</span></div>
+                <a href="#" class="btn" onclick="myfunction()">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="">
+                <h3>Cafetino</h3>
+                <div class="price">₹200 <span>₹500</span></div>
+                <a href="#" class="btn" onclick="myfunction()">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="">
+                <h3>Tasty & Healthy</h3>
+                <div class="price">₹18 <span>25</span></div>
+                <a href="#" class="btn" onclick="myfunction()">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="">
+                <h3>Tasty & Healthy</h3>
+                <div class="price">₹18 <span>25</span></div>
+                <a href="#" class="btn" onclick="myfunction()">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" alt="">
+                <h3>Chai</h3>
+                <div class="price">₹5 <span>₹50</span></div>
+                <a href="#" class="btn" onclick="myfunction()">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> Our <span>Products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nicargua Fresh Coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹18 <span>₹25</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Columbia Fresh Coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹18 <span>₹25</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Peru Fresh Coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹18 <span>₹25</span></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Customer's <span>Reviews</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p> This place is great! Atmosphere is chill and cool but the staff is also really friendly. They know
+                    what they're doing and what they're talking about, and you can tell making the customers happy is
+                    their main priority. Food is pretty good, some Indian classics and some twists, and for their prices
+                    it's 100% worth it.</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine
+                    dining. It can be expensive but worth it and they do different deals on different nights so it's
+                    worth checking them out before you book. Highly recommended.</p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>Alisha Healy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>We are so fortunate to have this place just a few minutes drive away from home. Food is stunning,
+                    both the Snacks and Coffee restaurant. Coffee wow, pizza great and lovely selection of snacks. Love
+                    this place and will continue to visit.</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>Virat Kohli</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Our</span> Location </h1>
+
+        <div class="row">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6698247613567!2d87.34016441481114!3d23.544374984691334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f771cd91905181%3A0xf0c67e84751ea4f2!2sDr%20B%20C%20Roy%20Engineering%20College%20-%20Durgapur.!5e0!3m2!1sen!2sin!4v1664256046852!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="LogIn" method="post">
+                <h3>Login</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" name="name" placeholder="Enter your name...">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" name="number" placeholder="Enter your phone number...">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-home"></span>
+                    <input type="email" name="email" placeholder="Enter your email...">
+                </div>
+                <button class="btn"><a href="contact.jsp">PLace Order</a></button>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> Our <span>Blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Tasty & Refreshing Coffee</a>
+                    <span>By admin / 21st may, 2021</span>
+                    <p>Life without coffee is like something without something.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Tasty & Refreshing Coffee</a>
+                    <span>By admin / 21st may, 2021</span>
+                    <p>Roast and brew harmony.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Tasty & Refreshing Coffee</a>
+                    <span>By admin / 21st may, 2021</span>
+                    <p>Way beyond your expectation.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=100064222097252" class="fab fa-facebook-f"></a>
+            <a href="https://github.com/AnkitChatterjee30" class="fab fa-github"></a>
+            <a href="https://youtube.com/channel/UC_frSvfCSkOpWw9fEhEKmRg" class="fab fa-youtube"></a>
+            <a href="https://www.linkedin.com/in/ankit-chatterjee-99233321a" class="fab fa-linkedin"></a>
+            <a href="https://www.quora.com/profile/Ankit-Chatterjee-67" class="fab fa-quora"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <div class="credit">Created by <span>Gouranga Kamilya</span> | All Rights Reserved
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
